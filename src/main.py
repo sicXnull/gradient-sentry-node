@@ -35,7 +35,6 @@ except WebDriverException as e:
     exit()
 
 driver.get('chrome-extension://caacbgbklghmpodbdafajbgdnegacfmo/popup.html')
-
 driver.switch_to.window(driver.window_handles[-1])
 
 rewards_found = False
