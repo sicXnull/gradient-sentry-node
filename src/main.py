@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
 extension_path = 'gradient_extension/gradient.crx'
-profile_path = os.path.expanduser('data')
+profile_path = os.path.expanduser('/opt/data')
 
 if not os.path.exists(extension_path):
     logger.error(f'Extension file not found at {extension_path}. Exiting...')
