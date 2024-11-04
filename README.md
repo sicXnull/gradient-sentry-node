@@ -16,8 +16,6 @@ docker run -d \
     --restart always \
     -e GRADIENT_USER=myuser@mail.com \
     -e GRADIENT_PASS=mypass \
-    -e ALLOW_DEBUG=False \
-    -v gradient_data:/app/data \
     sicnull/gradient-sentry-node
 ```
 ## License
