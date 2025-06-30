@@ -2,6 +2,10 @@
 An unofficial Docker Image for [gradient.network](https://app.gradient.network/signup?code=STFUMU)
 Available on [Docker Hub](https://hub.docker.com/r/sicnull/gradient-sentry-node)
 
+## Warning
+
+This will get you banned, do not use it any more. 
+
 
 ## How to get started?
 1. Register a Gradient Account if you don't have one already: [gradient.network](https://app.gradient.network/signup?code=STFUMU)
